@@ -1,0 +1,116 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    /* background-color: dodgerblue; */
+    color: dodgerblue;
+    position: fixed;
+    z-index: 2;
+    background-color: dodgerblue;
+    width: 100%;
+}
+.plus{
+    font-size: 25px;
+}
+
+header h1{
+    padding: 25px;
+}
+
+header a{
+    padding: 28px;
+    color: white;
+    font-weight: bold;
+}
+main{
+    padding: 10% 0% 0% 0%;
+}
+.form{
+    padding: 20px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+    background-color: dodgerblue;
+}
+.form form{
+    width: 85%;
+    /* text-align: center; */
+    font-weight: bolder;
+}
+.form-group{
+    padding: 20px;
+}
+.form-control{
+    width: 100%;
+}
+
+.close-btn{
+    font-size: 40px;
+    color: dodgerblue;
+    outline: none;
+}
+#name{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid dodgerblue;
+    outline: none;
+}
+#comment{
+    border: none;
+    border-bottom: 1px solid dodgerblue;
+}
+.submit-btn{
+    background-color: white;
+    border: none;
+    color: dodgerblue;
+    cursor: pointer;
+    padding: 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+.comment-section{
+    padding: 20px;
+    display: none;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    /* box-shadow: 1px 1px 3px 1px lightgray; */
+    border-radius: 10px;
+    color: dodgerblue;
+}
+.red-text{
+    color: red;;
+}
+.green-text{
+    color: chartreuse;
+}
+.black-text{
+    color: black;
+}
+.comments{
+    width: 80%;
+    
+}
+.comment{
+    box-shadow: 1px 1px 3px 1px lightgray;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+.del-btn{
+    font-size: 20px;
+    cursor: pointer;
+}
